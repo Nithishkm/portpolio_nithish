@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #ab{
+            align-items: center;
+            padding: 30px;
+            margin-left: 500px;
+        }
+        table,tr,td,th{
+            border: 2px solid black;
+        }
+        th{
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <div id="ab">
+        <table>
+            <tr>
+            <th>name</th>
+            <th>age</th>
+            <th>phone</th>
+            <th>age</th>
+            <th>address</th>
+        </tr>
+        <tr>
+            <td>nithish</td>
+            <td>23</td>
+            <td>9768564734</td>
+            <td>23</td>
+            <td>kkkkiiiio</td>
+        </tr>
+        <tr>
+            <td>bharath</td>
+            <td>23</td>
+            <td>9768564734</td>
+            <td>23</td>
+            <td>jjjjiiiio</td>
+        </tr>
+        <tr>
+            <td>vinayak</td>
+            <td>23</td>
+            <td>9768564734</td>
+            <td>23</td>
+            <td>koiuyiiio</td>
+        </tr>
+        <tr>
+            <td>anil</td>
+            <td>23</td>
+            <td>9768564734</td>
+            <td>23</td>
+            <td>kuyhgtyuo</td>
+        </tr>
+        <tr>
+            <td>abhishek</td>
+            <td>23</td>
+            <td>9768564734</td>
+            <td>23</td>
+            <td>desfdrtio</td>
+        </tr>
+        </table>
+    </div>
+    <button onclick="hide()">hise/show</button>
+
+    <script>
+        function hide(){
+            var x=document.getElementById("ab");
+            if(x.style.display==='none'){
+                x.style.display='block';
+            }
+            else{
+                x.style.display='none';
+            }
+        }
+    </script>
+</body>
+</html>

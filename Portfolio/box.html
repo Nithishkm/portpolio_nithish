@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        div{
+            height: 100px;
+            position: fixed;
+            width: 100px;
+            border: 2px solid black;
+        }
+        .container:nth-child(1){
+            z-index: 1;
+            left: 40px;
+            top: 40px;
+            background-color: coral;
+        }
+        .container:nth-child(2){
+            z-index: 2;
+            left: 200px;
+            top: 60px;
+            background-color: rgb(157, 66, 33);
+        }
+        .container:nth-child(3){
+            z-index: 3;
+            left: 120px;
+            top: 80px;
+            background-color: rgb(139, 100, 85);
+        }
+    
+    </style>
+</head>
+<body>
+
+        <div class="container">box1</div>
+        <div class="container">box2</div>
+        <div class="container">box3</div>
+        <div class="container">box4</div>
+        <div class="container">box5</div>
+       
+
+</body>
+</html>
